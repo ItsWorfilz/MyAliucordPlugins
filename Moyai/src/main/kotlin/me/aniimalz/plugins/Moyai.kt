@@ -24,7 +24,7 @@ import java.util.concurrent.ThreadLocalRandom
 import kotlin.system.exitProcess
 
 @AliucordPlugin
-class Moyai : Plugin() {
+class Meow : Plugin() {
     private var observable: Subscription? = null
     override fun start(ctx: Context) {
         patcher.after<StoreMessageReactions>(
@@ -41,7 +41,7 @@ class Moyai : Plugin() {
             val message = Message(this)
             val content = message.content.lowercase()
             if (message.channelId != StoreStream.getChannelsSelected().id) return@subscribe
-            if (content.contains("🗿") || content.contains("vine boom")) funny()
+            if (content.contains("meow") || content.contains("Meow")) funny()
         }
 
     }
