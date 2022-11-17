@@ -56,7 +56,7 @@ class Meow : Plugin() {
                             .setUsage(AudioAttributes.USAGE_MEDIA)
                             .build()
                     )
-                    setDataSource("https://raw.githubusercontent.com/ItzOnlyAnimal/AliuPlugins/main/boom.ogg")
+                    setDataSource("https://github.com/ItsWorfilz/MyAliucordPlugins/blob/main/Standard_recording_3.ogg?raw=true")
                     prepare()
                     start()
                 }
