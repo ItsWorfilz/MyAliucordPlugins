@@ -34,7 +34,7 @@ final class Moyai$start$2 extends Lambda implements Function1<Message, Unit> {
                 String content2 = content.toLowerCase(Locale.ROOT);
                 Intrinsics.checkNotNullExpressionValue(content2, "(this as java.lang.Strin….toLowerCase(Locale.ROOT)");
                 if (message.getChannelId() == StoreStream.getChannelsSelected().getId()) {
-                    if (StringsKt.contains$default(content2, "🗿", false, 2, (Object) null) || StringsKt.contains$default(content2, "vine boom", false, 2, (Object) null)) {
+                    if (StringsKt.contains$default(content2, "meow", false, 2, (Object) null) || StringsKt.contains$default(content2, "Meow", false, 2, (Object) null)) {
                         this.this$0.funny();
                         return;
                     }
